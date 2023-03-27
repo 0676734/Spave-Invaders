@@ -1,0 +1,41 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 9.0
+margin_top = 2.0
+margin_right = 9.0
+margin_bottom = 2.0
+
+[node name="Button" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 159.0
+margin_right = 1100.0
+margin_bottom = 241.0
+text = "Get outta here"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Button"]
+margin_left = -60.0
+margin_top = -153.0
+margin_right = 619.0
+margin_bottom = 163.0
+
+[node name="CheckButton" type="CheckButton" parent="."]
+margin_left = 1024.0
+margin_top = 33.0
+margin_right = 1100.0
+margin_bottom = 73.0
+
+[node name="Autofire" type="Label" parent="."]
+margin_left = 959.0
+margin_top = 43.0
+margin_right = 1092.0
+margin_bottom = 75.0
+text = "Automatic"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_left = 952.0
+margin_top = 31.0
+margin_right = 1094.0
+margin_bottom = 71.0
