@@ -10,7 +10,7 @@ func _ready():
 
 
 func _physics_process(delta):
-	var collideObject = move_and_collide(Vector2(0, +speed*delta^0.4))
+	var collideObject = move_and_collide(Vector2(0, +speed*delta*0.4))
 	if (collideObject):
 		
 		if "enemy" in collideObject.collider.name:
