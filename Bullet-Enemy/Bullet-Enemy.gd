@@ -20,6 +20,6 @@ func _physics_process(delta):
 			queue_free()
 			GlobalVariables.enemyBulletInstanceCount -= 1
 			print("Enemy Bullet: ", GlobalVariables.enemyBulletInstanceCount)
-			if "player" in collideObject.collider.name:
+			if "Player" in collideObject.collider.name:
 				get_tree().change_scene("res://MainGame/Lbozo.tscn")
 				
